@@ -1,0 +1,21 @@
+{
+    "name": "Snow ReportBG",
+    "short_name": "Snow ReportBG",
+    "start_url": "/bg",
+
+    "icons": [
+        {
+            "src": "https://snowreportbg.com/panel/admin/wicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://snowreportbg.com/panel/admin/wicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#203040",
+    "background_color": "#203040",
+    "display": "standalone"
+}

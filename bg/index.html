@@ -1,0 +1,1130 @@
+<html>
+<style>
+    html {
+        visibility: hidden;
+        opacity: 0
+    }
+</style>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+    <title>Snow ReportBG</title>
+    <meta property="og:title" content="Snow ReportBG">
+    <meta name="description" content="Всичко за зимния сезон в България">
+    <meta property="og:description" content="Всичко за зимния сезон в България">
+
+
+
+    <meta property="og:image" content="https://snowreportbg.com/panel/uploads/image/cover/facebook-link-cover.png">
+
+    <meta property="article:published_time" content="2019-10-01T11:39+02:00" />
+    <meta property="article:modified_time" content="2021-01-26T20:17+02:00" />
+    <meta property="og:updated_time" content="2021-05-01T11:31+02:00" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://snowreportbg.com/panel/admin/wicons/apple-touch-icon.png?v2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://snowreportbg.com/panel/admin/wicons/favicon-32x32.png?v2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://snowreportbg.com/panel/admin/wicons/favicon-16x16.png?v2">
+    <link rel="manifest" href="https://snowreportbg.com/panel/admin/wicons/sitebg.webmanifest?v5">
+
+
+
+    <link rel="mask-icon" href="https://snowreportbg.com/panel/admin/wicons/safari-pinned-tab.svg" color="#406080">
+    <link rel="shortcut icon" href="https://snowreportbg.com/panel/admin/wicons/favicon.ico?v2">
+    <meta name="msapplication-TileColor" content="#406080">
+    <meta name="msapplication-config" content="https://snowreportbg.com/panel/admin/wicons/browserconfig.xml">
+    <meta name="theme-color" content="#203040">
+    <meta name="apple-mobile-web-app-title" content="Snow ReportBG">
+    <meta name="application-name" content="Snow ReportBG">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="683">
+    <meta property="og:url" content="https://snowreportbg.com/bg/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Snow ReportBG">
+    <meta property="fb:app_id" content="565513403518953">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@snowreportbg" />
+    <meta name="google-site-verification" content="f6OaSA_PgXW-6OElvIlNRtAhOl27T6gNKOfcjj02Afs" />
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        // OneSignal
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "043e1a9f-771b-40ab-a4f9-28d6a87d424c",
+            });
+        });
+
+        // Service Worker Call
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/OneSignalSDKWorker.js', {
+                updateViaCache: 'all',
+            });
+        }
+
+        // Install PWA prompt
+        let deferredPrompt = null;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+        });
+        async function install() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                console.log(deferredPrompt)
+                deferredPrompt.userChoice.then(function(choiceResult) {
+                    if (choiceResult.outcome === 'accepted') {} else {}
+                    deferredPrompt = null;
+                });
+            }
+        }
+
+        // OneSignal - Tag with lang upon subscription
+        OneSignal.push(function() {
+
+            OneSignal.on('subscriptionChange', function(isSubscribed) {
+                if (isSubscribed === true) {
+                    console.log('The user subscription state is now:', isSubscribed);
+                    OneSignal.sendTags({
+                        "page_url": window.location.pathname,
+                        "page_lang": "bg",
+                    }).then(function(tagsSent) {
+                        console.log(tagsSent);
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W8F3QXZ');
+    </script>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8F3QXZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+</head>
+
+<body class="">
+
+    <div class="container main-body">
+
+        <div class="card row main-card " style="margin:0px !important">
+            <nav class="hide-on-med-and-down">
+                <div class="nav-wrapper	container " style="width: 100% !important;">
+                    <a href="https://snowreportbg.com/bg/" class="brand-logo hide-on-med-and-down active" style="padding:0px 20px;"><img class="logonav"  src="https://snowreportbg.com/panel/admin/img/logo/colorv4.svg"></a>
+                    <h3 class="brand-logo hide-on-large-only " style="font-size: 22px;">Snow ReportBG</h3>
+
+                    <ul class="right hide-on-med-and-down">
+
+                        <li class="waves-effect waves-light-blue "><a href="#!" onclick="mainmenu()">КУРОРТИ</a></li>
+                        <li class="waves-effect waves-light-blue "><a href="https://snowreportbg.com/bg/report/">ТВОЯТ РЕПОРТ</a></li>
+                        <li class="waves-effect waves-light-blue "><a onclick="openReport()">ДОБАВИ РЕПОРТ</a></li>
+
+
+                        <li class="waves-effect waves-light-blue"><a href="https://snowreportbg.com/en/?dlang=en" style="display: flex;">
+							<svg style="height: 55px;padding: 15px 0px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs/>    <path fill="currentColor" d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+							EN</a></li>
+                        <li class="waves-effect waves-light-blue"><a href="#" class="btn-dark" style="display: flex;">
+							<svg style="height: 55px;padding: 15px 0px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs/>    <path fill="currentColor" d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" /></svg>
+							</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+
+            <ul class="collapsible hide-on-med-and-down" data-collapsible="accordion" style="    margin: 0 auto;padding: 0px 5%;background: var(--background-clr);position: absolute;width: 100%;max-width: 1100px;z-index: 999;top: 55px;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;">
+                <li>
+                    <div id="mainmenu" class="collapsible-header waves-effect " style="display:none"></div>
+                    <div class="collapsible-body ">
+                        <div class="row  ">
+                            <div class=" menu-collection ">
+                                <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                                    <span class="mob-title" style="padding-left:15px">Витоша</span>
+                                    <a href="https://snowreportbg.com/bg/vitosha/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Витоша</li>
+                                    </a>
+                                </ul>
+                                <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                                    <span class="mob-title" style="padding-left:15px">Пирин</span>
+                                    <a href="https://snowreportbg.com/bg/bansko/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Банско</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/dobrinishte/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Добринище</li>
+                                    </a>
+                                </ul>
+                                <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                                    <span class="mob-title" style="padding-left:15px">Рила</span>
+                                    <a href="https://snowreportbg.com/bg/borovets/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Боровец</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/lakes/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Рилски езера</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/kartala/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Картала</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/semkovo/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Семково</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/maliovitsa/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Мальовица</li>
+                                    </a>
+                                </ul>
+                                <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                                    <span class="mob-title" style="padding-left:15px">Родопи</span>
+                                    <a href="https://snowreportbg.com/bg/pamporovo/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Пампорово</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/koprivki/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Копривки</li>
+                                    </a>
+                                </ul>
+                                <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                                    <span class="mob-title" style="padding-left:15px;    white-space: nowrap;">Стара Планина</span>
+                                    <a href="https://snowreportbg.com/bg/uzana/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Узана</li>
+                                    </a>
+                                    <a href="https://snowreportbg.com/bg/beklemeto/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Беклемето</li>
+                                    </a>
+                                </ul>
+                                <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                                    <span class="mob-title" style="padding-left:15px">Други</span>
+                                    <a href="https://snowreportbg.com/bg/osogovo/" class="mobmenu-top-a">
+                                        <li class="mobmenu-top bordered waves-effect ">Осогово</li>
+                                    </a>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <nav class="mobilenav">
+                <div class="nav-wrapper">
+                    <ul id="nav-mobile">
+                        <li><a href="https://snowreportbg.com/bg/"><img class="logonavmobile"  src="https://snowreportbg.com/panel/admin/img/logo/colorv4.svg"></a></li>
+                        <li class="openNav-btn" onclick="openNav()">
+                            <img class="loading" src="https://snowreportbg.com/panel/admin/ui-svg/loading-white.svg">
+                            <svg viewBox="0 0 24 24"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="mobilenewnav" style="max-height: 70% !important;">
+                <div style="padding:10px 15px;position:relative">
+
+                    <span class="mob-title" style="padding-left:15px">КУРОРТИ</span>
+                    <ul class="collection mobmenu grid-mobile-menu grid-align-center">
+                        <a href="https://snowreportbg.com/bg/bansko/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Банско</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/borovets/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Боровец</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/vitosha/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Витоша</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/pamporovo/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Пампорово</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/lakes/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Рилски езера</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/dobrinishte/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Добринище</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/kartala/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Картала</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/koprivki/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Копривки</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/semkovo/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Семково</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/maliovitsa/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Мальовица</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/uzana/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Узана</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/beklemeto/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Беклемето</li>
+                        </a>
+                        <a href="https://snowreportbg.com/bg/osogovo/" class="mobmenu-top-a">
+                            <li class="mobmenu-top bordered waves-effect ">Осогово</li>
+                        </a>
+                    </ul>
+
+                    <ul class="collection mobmenu-settings">
+
+                        <span class="mob-title">МЕНЮ</span>
+
+                        <a class="mobmenu-top-a" href="https://snowreportbg.com/bg/">
+                            <li class="mobmenu-top-set active">
+                                <svg viewBox="0 0 24 24"><path  d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg> Начало </li>
+                        </a>
+
+                        <a class="mobmenu-top-a" href="https://snowreportbg.com/bg/report/">
+                            <li class="mobmenu-top-set ">
+                                <svg viewBox="0 0 24 24"><path  d="M20.79,13.95L18.46,14.57L16.46,13.44V10.56L18.46,9.43L20.79,10.05L21.31,8.12L19.54,7.65L20,5.88L18.07,5.36L17.45,7.69L15.45,8.82L13,7.38V5.12L14.71,3.41L13.29,2L12,3.29L10.71,2L9.29,3.41L11,5.12V7.38L8.5,8.82L6.5,7.69L5.92,5.36L4,5.88L4.47,7.65L2.7,8.12L3.22,10.05L5.55,9.43L7.55,10.56V13.45L5.55,14.58L3.22,13.96L2.7,15.89L4.47,16.36L4,18.12L5.93,18.64L6.55,16.31L8.55,15.18L11,16.62V18.88L9.29,20.59L10.71,22L12,20.71L13.29,22L14.7,20.59L13,18.88V16.62L15.5,15.17L17.5,16.3L18.12,18.63L20,18.12L19.53,16.35L21.3,15.88L20.79,13.95M9.5,10.56L12,9.11L14.5,10.56V13.44L12,14.89L9.5,13.44V10.56Z" /></svg>                                Твоят Репорт </li>
+                        </a>
+
+                        <a class="mobmenu-top-a " onclick="openReport()">
+                            <li class="mobmenu-top-set ">
+                                <svg viewBox="0 0 24 24"><path  d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2" /></svg> Добави репорт </li>
+                        </a>
+
+                        <a class="mobmenu-top-a" href="https://snowreportbg.com/bg/about/">
+                            <li class="mobmenu-top-set ">
+                                <svg viewBox="0 0 24 24"><path  d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg> За нас </li>
+                        </a>
+
+                        <span class="mob-title">НАСТРОЙКИ</span>
+
+
+                        <a class="mobmenu-top-a" href="https://snowreportbg.com/en/">
+                            <li class="mobmenu-top-set">
+                                <svg viewBox="0 0 24 24"><path  d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>                                English
+                            </li>
+                        </a>
+
+
+
+
+                        <a class="mobmenu-top-a btn-dark2" href="#">
+                            <li class="mobmenu-top-set">
+                                <svg viewBox="0 0 24 24"><path  d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" /></svg>                                Тъмен Режим </li>
+                        </a>
+
+
+                        <a class="mobmenu-top-a " id="my-notification-button" href="#">
+                            <li class="mobmenu-top-set ">
+                                <svg id="notifyicon1" viewBox="0 0 24 24"><path  d="M7.58 4.08L6.15 2.65C3.75 4.48 2.17 7.3 2.03 10.5h2c.15-2.65 1.51-4.97 3.55-6.42zm12.39 6.42h2c-.15-3.2-1.73-6.02-4.12-7.85l-1.42 1.43c2.02 1.45 3.39 3.77 3.54 6.42zM18 11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2v-5zm-6 11c.14 0 .27-.01.4-.04.65-.14 1.18-.58 1.44-1.18.1-.24.15-.5.15-.78h-4c.01 1.1.9 2 2.01 2z" /></svg>
+
+                                <svg id="notifyicon2" style="display:none" viewBox="0 0 24 24"><path fill="currentColor" d="M20.84,22.73L18.11,20H3V19L5,17V11C5,9.86 5.29,8.73 5.83,7.72L1.11,3L2.39,1.73L22.11,21.46L20.84,22.73M19,15.8V11C19,7.9 16.97,5.17 14,4.29C14,4.19 14,4.1 14,4A2,2 0 0,0 12,2A2,2 0 0,0 10,4C10,4.1 10,4.19 10,4.29C9.39,4.47 8.8,4.74 8.26,5.09L19,15.8M12,23A2,2 0 0,0 14,21H10A2,2 0 0,0 12,23Z" /></svg>                                Известия
+                                <span id="myCheck"></span>
+                            </li>
+                        </a>
+
+
+
+                        <a class="mobmenu-top-a a2hbtn" href="#" id="a2hbtn" onclick="install()">
+                            <li class="mobmenu-top-set">
+                                <svg viewBox="0 0 24 24"><path  d="M17,1H7A2,2 0 0,0 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3A2,2 0 0,0 17,1M17,19H7V5H17V19M16,13H13V8H11V13H8L12,17L16,13Z" /></svg> Инсталирай </li>
+                        </a>
+
+                        <a class="mobmenu-top-a" href="https://play.google.com/store/apps/details?id=com.snowreportbg.mobile&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target='_blank'>
+                            <li class="mobmenu-top-set">
+                                <svg viewBox="0 0 24 24"><path  d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" /></svg>                                Play Store </li>
+                        </a>
+
+                    </ul>
+                </div>
+                <a class="mobmenu-top-a mobileclose " id="mobileclose" onclick="openNav()">
+                    <li class="mobmenu-top-set">
+                        <svg viewBox="0 0 24 24"><path  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" /></svg> Затвори меню </li>
+                </a>
+                <img class="loading loadingmobile" src="https://snowreportbg.com/panel/admin/ui-svg/loading.svg">
+            </div>
+            <div class="reportnav" style="border-radius: 0px;border: 0px;">
+                <div style="padding:10px 15px;position:relative">
+                    <form class="row" enctype="multipart/form-data" method="post" role="form" name="kformname0" action="" accept-charset="utf-8">
+
+
+
+                        <div class="row" style="padding: 20px;">
+                            <div class="col s12 bordered" style="border-radius: 10px;padding: 15px;margin-top:10px;background-color: var(--clr-card);display:block">
+
+                                <span class="col s12 title-form2" style="text-align:left">Твоят Репорт<span id="validates" style="color: red;">*</span></span>
+
+                                <select class="col s12 browser-default " id="resort" name="f_resort" onchange="enable()" style="margin-bottom:10px"> 
+			<option value="none" disabled  selected>Избери курорт</option>		
+			<option value="bansko">   	Банско</option>	
+			<option value="borovets">   Боровец</option>
+			<option value="vitosha">    Витоша</option>
+			<option value="pamporovo">  Пампорово</option>
+			<option value="" disabled ></option> 
+			<option value="rilalakes">  Рилски езера</option>
+			<option value="kartala">    Картала</option>
+			<option value="dobrinishte">Добринище</option>
+			<option value="maliovitsa"> Мальовица</option> 
+			<option value="osogovo">    Осогово</option>
+			<option value="" disabled ></option>
+			<option value="semkovo">   Семково</option>
+			<option value="koprivki">  Копривки</option>
+			<option value="beklemeto"> Беклемето</option>
+			<option value="uzana">     Узана</option>
+		</select>
+
+                                <div class="col s12 no-padding" style="margin-top: 20px;">
+                                    <input id="f_image" name="f_image" style="" type="file" class="sf_fileinput" /><input type="submit" class="sf_btn" name="submit_f_image" value="Upload file" style="display:none;" />
+                                    <p style="margin-top:5px;opacity:0.5">
+                                        Качете снимка(jpg,jpeg) до 2MB (не е задължително) </p>
+                                </div>
+                            </div>
+
+                            <div class="col s12 no-padding" style="margin-top: 10px;">
+                                <div class="col s12" style="padding: 10px 0px;">
+                                    <div class="grid-reportform-snow grid-align-center">
+                                        <span class="title-form2">Нов сняг</span>
+                                        <input type="range" value="0" min="0" max="50" step="5" class="inputrange " id="newsnow" name="f_newsnow" />
+                                        <span class="title-form2 reportformcm"><span class=" newsnow_cm" ><span id="newsnow_cm"></span><span style="font-size:14px"> см</span></span>
+                                        </span>
+                                    </div>
+                                    <script>
+                                        var newsnow = document.getElementById("newsnow");
+                                        var newsnow_cm = document.getElementById("newsnow_cm");
+                                        newsnow_cm.innerHTML = newsnow.value;
+                                        newsnow.oninput = function() {
+                                            newsnow_cm.innerHTML = this.value;
+                                        }
+                                    </script>
+                                </div>
+
+                                <div class="divider col s12 no-padding" style="margin:10px 0px"></div>
+
+                                <div class="col s12 no-padding ">
+                                    <span class="title-form2">Условия</span>
+
+                                    <div class="grid-reportform grid-align-center">
+                                        <input id="now_1" name="f_now" type="radio" value="none" checked selected checked="checked" style="display:none"><label for="now_1" style="display:none">-</label>
+                                        <input id="now_2" name="f_now" type="radio" value="sun"><label for="now_2"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/sun.png"><br>Слънчево</label>
+                                        <input id="now_3" name="f_now" type="radio" value="cloud"><label for="now_3"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/cloud.png"><br>Облачно</label>
+                                        <input id="now_4" name="f_now" type="radio" value="fog"><label for="now_4"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/fog.png"><br>Мъгливо</label>
+                                        <input id="now_5" name="f_now" type="radio" value="snow1"><label for="now_5"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/snow1.png"><br>Сняг</label>
+                                        <input id="now_6" name="f_now" type="radio" value="snow2"><label for="now_6"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/snow2.png"><br>Силен сняг</label>
+                                        <input id="now_7" name="f_now" type="radio" value="snow3"><label for="now_7"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/snow3.png"><br>Мокър сняг</label>
+                                        <input id="now_8" name="f_now" type="radio" value="rain"><label for="now_8"><img class="lazy" data-src="https://snowreportbg.com/panel/admin/img/report/rain.png"><br>Дъжд</label>
+                                    </div>
+                                </div>
+
+                                <div class="divider col s12 no-padding" style="margin:10px 0px"></div>
+
+                                <div class="col s12 no-padding center" style="margin-bottom:15px">
+                                    <span class="title-form2">Вятър</span>
+
+                                    <input id="wind_1" name="f_wind" type="radio" value="wind0" checked><label class="textradio" for="wind_1">Няма</label>
+                                    <input id="wind_2" name="f_wind" type="radio" value="wind1"><label class="textradio" for="wind_2">Слаб</label>
+                                    <input id="wind_3" name="f_wind" type="radio" value="wind2"><label class="textradio" for="wind_3">Силен</label>
+                                </div>
+
+                                <div class="divider col s12 no-padding" style="margin:10px 0px"></div>
+
+                                <div class="col s12 no-padding center" style="margin-bottom:15px">
+                                    <span class="title-form2" style="margin-bottom:0px;padding: 8px 10px;">Писти</span>
+                                    <input id="slopes_1" name="f_slopes" type="radio" value="none" checked style="display:none">
+                                    <input id="slopes_2" name="f_slopes" type="radio" value="excelent"><label class="textradio" for="slopes_2">Отлични</label>
+                                    <input id="slopes_3" name="f_slopes" type="radio" value="hard"><label class="textradio" for="slopes_3">Твърди</label>
+                                    <input id="slopes_4" name="f_slopes" type="radio" value="soft"><label class="textradio" for="slopes_4">Меки</label>
+                                    <input id="slopes_5" name="f_slopes" type="radio" value="ice"><label class="textradio" for="slopes_5">Заледени</label>
+                                    <input id="slopes_6" name="f_slopes" type="radio" value="rocks"><label class="textradio" for="slopes_6">Камъни</label>
+                                    <input id="slopes_7" name="f_slopes" type="radio" value="artificial"><label class="textradio" for="slopes_7">Изкуствен сняг</label>
+                                    <input id="slopes_8" name="f_slopes" type="radio" value="closed"><label class="textradio" for="slopes_8">Затворени</label>
+                                </div>
+
+                                <div class="divider col s12 no-padding" style="margin:10px 0px"></div>
+
+                                <div class="col s12 no-padding  center" style="margin-bottom:15px">
+                                    <span class="title-form2" style="margin-bottom:0px;padding: 8px 10px;">Лифтове</span>
+                                    <input id="lifts_1" name="f_lifts" type="radio" value="none" checked style="display:none">
+                                    <input id="lifts_2" name="f_lifts" type="radio" value="open"><label class="textradio" for="lifts_2">Отворени</label>
+                                    <input id="lifts_3" name="f_lifts" type="radio" value="partlyopen"><label class="textradio" for="lifts_3">Частично отворени</label>
+                                    <input id="lifts_4" name="f_lifts" type="radio" value="partlyclosed"><label class="textradio" for="lifts_4">Частично затворени</label>
+                                    <input id="lifts_5" name="f_lifts" type="radio" value="closed"><label class="textradio" for="lifts_5">Затворени</label>
+                                    <input id="lifts_6" name="f_lifts" type="radio" value="lines"><label class="textradio" for="lifts_6">Опашки</label>
+                                </div>
+
+                                <div class="divider col s12 no-padding" style="margin:10px 0px"></div>
+
+                                <div class="col s12 no-padding center" style="margin-bottom:15px">
+                                    <span class="title-form2" style="margin-bottom:0px;padding: 8px 10px;">Фрирайд</span>
+                                    <input id="freeride_1" name="f_freeride" type="radio" value="none" checked style="display:none">
+                                    <input id="freeride_2" name="f_freeride" type="radio" value="excelent"><label class="textradio" for="freeride_2">Няма сняг</label>
+                                    <input id="freeride_3" name="f_freeride" type="radio" value="hard"><label class="textradio" for="freeride_3">Пудра</label>
+                                    <input id="freeride_4" name="f_freeride" type="radio" value="soft"><label class="textradio" for="freeride_4">Меко</label>
+                                    <input id="freeride_5" name="f_freeride" type="radio" value="ice"><label class="textradio" for="freeride_5">Тежко</label>
+                                    <input id="freeride_6" name="f_freeride" type="radio" value="rocks"><label class="textradio" for="freeride_6">Навявки</label>
+                                    <input id="freeride_7" name="f_freeride" type="radio" value="artificial"><label class="textradio" for="freeride_7">Мокър сняг</label>
+                                </div>
+                            </div>
+
+                            <div class="col s12 no-padding" style="margin-top:20px;text-align:center">
+                                <input id="submit_form" type="submit" style="display:none" name="submit" value="Изпрати Репорт" class="btn btn-large">
+
+                                <span class="bordered  col s12" id="submit_error" style="font-size:20px;text-transform:uppercase;border-radius: 10px;padding: 15px;margin-top:10px;background-color: var(--clr-card);color:#b9484d">
+							Моля, изберете курорт!*						</span>
+
+                                <span class="bordered  col s12" id="submit_terms" style="display:none;border-radius: 10px;padding: 15px;margin-top:10px;background-color: var(--clr-card);color:var(--txt-colr-main)">
+						С натискането на бутона "Изпрати" се съгласявате с <a href="https://snowreportbg.com/bg/about/" class="text-link" style="color:var(--clr-2)" target="_blank">условията</a> за изпращане на снимки.
+											</span>
+                            </div>
+                        </div>
+                        <input type="hidden" name="k_hid_kformname0" id="k_hid_kformname0" value="kformname0" /><input type="hidden" name="k_nonce" id="k_nonce" value="2086ba597c1993de7152225877bb8eaf" /></form>
+                </div>
+                <a class="mobmenu-top-a reportclose " id="reportclose" onclick="openReport()">
+                    <li class="mobmenu-top-set">
+                        <svg viewBox="0 0 24 24"><path  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" /></svg> Затвори </li>
+                </a>
+                <img class="loading loadingreport" src="https://snowreportbg.com/panel/admin/ui-svg/loading.svg">
+            </div>
+
+
+            <style>
+                @media only screen and (min-width: 992px) {
+                    .reportnav {
+                        height: 87vh;
+                        width: 100%;
+                        max-width: 800px;
+                        margin: 0px auto;
+                        left: 50%;
+                        transform: translate(-50%, 0px);
+                        border-top-left-radius: 20px;
+                        border: 3px solid black;
+                        border-top-right-radius: 20px;
+                        border-bottom: 0px;
+                    }
+                }
+            </style>
+
+            <style>
+                @media screen and (max-width: 992px) {
+                    .card-cam img {
+                        height: 300px !important
+                    }
+                }
+            </style>
+
+            <div class="grid-page-bottom">
+
+                <div class="box-cams">
+                    <div class="index-slider" style="padding:20px">
+
+                        <div class="card-cam bordered ">
+                            <img class="lazy " src="https://snowreportbg.com/panel/admin/img/load.svg" data-src="https://snowreportbg.com/api/cam.php?id=bansko4&amp;cache=1" onerror="this.src='https://snowreportbg.com/panel/admin/img/error.svg';">
+                            <span>
+						<a  href="https://snowreportbg.com/bg/bansko/" rel="nofollow" class="white-text">
+							<div class="top">Банско</div>
+						<div class="bottom">
+																						<div class="index-cam-info">
+									<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 100"><defs/><circle cx="34.08" cy="38.75" r="7.08"/><circle cx="66.43" cy="38.75" r="7.08"/><path d="M94.13 66.66l-3.68-38.52a8 8 0 00-8-7.3H52v-9.16a2 2 0 00-3.94 0v9.16H17.59a8.08 8.08 0 00-8.07 7.34L5.87 66.36a7.95 7.95 0 007.93 8.72h8.89v11.39a3.81 3.81 0 007.62 0V75.08h7v11.39a3.82 3.82 0 007.63 0V75.08H55v11.39a3.82 3.82 0 007.63 0V75.08h7v11.39a3.81 3.81 0 007.62 0V75.08h9.16a7.69 7.69 0 007.66-8.42zm-5.42 2.76a3 3 0 01-2.24 1h-9.16v-1.9a3.83 3.83 0 00-2.8-3.67v-9.28a7.09 7.09 0 00-7.08-7.08h-2a7.09 7.09 0 00-7.08 7.08v9.18A3.83 3.83 0 0055 68.52v1.89H45v-1.89a3.83 3.83 0 00-2.8-3.67v-9.28a7.1 7.1 0 00-7.08-7.08h-2A7.1 7.1 0 0026 55.57v9.18a3.82 3.82 0 00-3.3 3.77v1.89h-8.9a3.28 3.28 0 01-3.28-3.6l3.65-38.19a3.43 3.43 0 013.42-3.11h64.83a3.38 3.38 0 013.38 3.08l3.68 38.51a2.94 2.94 0 01-.77 2.32z"/></svg>
+									- / 14
+									<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs/><path  d="M47.6 12.1c-4.7 0-9.5 2.4-9.5 9.5 0 2.5.2 3 .7 5.2l3.3 13.5L24.5 51l-16-9.3c-.5-.3-1.2-.3-2.1-.1-.8.1-1.4 1.1-1.4 2.2 0 1 .5 1.6 1.2 2.1l68.7 40.3c2.2 1.2 4.1 1.7 5.9 1.8 1.3 0 2.5-.2 3.6-.6 2.5-1 4.1-2.9 5.2-4 .5-.5.7-1.2.7-1.9 0-1-.6-2.1-1.9-2.2-.8-.1-1.5.2-2.1.9-1.1 1.4-2.5 2.5-3.7 3-1.2.5-2.5.6-5.3-1L30.5 54.4l19.8-8.1c1.6-1.1 2.4-3.2 1.9-5L49 29.9s15.3 8.2 18.2 13.5 2.3 10.3 4.7 13 12 7 12 7c7.6 3.3 8.7-3.9 3.8-6 0 0-5.5-.3-8.9-3.8s-4.5-18.8-7.9-24.3c-3.4-5.5-14.1-13.6-14.1-13.6-3.7-2.2-6.8-3.6-9.2-3.6z"/><circle  cx="85.5" cy="31.1" r="9.5"/></svg>
+									- / 17												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  style="width:20px;height:20px;transform: rotate(-90deg);float: right;right: 10px;bottom: 20px;position: absolute;"><g data-name="Layer 2"><g data-name="web ui"><path  d="M3 7.38a1.25 1.25 0 000 1.77l8.31 8.31a1 1 0 001.41 0L21 9.15a1.25 1.25 0 00-1.77-1.77L12 14.62 4.75 7.37A1.25 1.25 0 003 7.38z"/></g></svg>
+								</div>
+																											</div>
+						</a>
+					</span>
+                        </div>
+
+                        <div class="card-cam bordered ">
+                            <img class="lazy " src="https://snowreportbg.com/panel/admin/img/load.svg" data-src="https://snowreportbg.com/api/cam.php?id=borovets4&amp;cache=1" onerror="this.src='https://snowreportbg.com/panel/admin/img/error.svg';">
+                            <span>
+						<a  href="https://snowreportbg.com/bg/borovets/" rel="nofollow" class="white-text">
+							<div class="top">Боровец</div>
+						<div class="bottom">
+																													<div class="index-cam-info">
+									<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 100"><defs/><circle cx="34.08" cy="38.75" r="7.08"/><circle cx="66.43" cy="38.75" r="7.08"/><path d="M94.13 66.66l-3.68-38.52a8 8 0 00-8-7.3H52v-9.16a2 2 0 00-3.94 0v9.16H17.59a8.08 8.08 0 00-8.07 7.34L5.87 66.36a7.95 7.95 0 007.93 8.72h8.89v11.39a3.81 3.81 0 007.62 0V75.08h7v11.39a3.82 3.82 0 007.63 0V75.08H55v11.39a3.82 3.82 0 007.63 0V75.08h7v11.39a3.81 3.81 0 007.62 0V75.08h9.16a7.69 7.69 0 007.66-8.42zm-5.42 2.76a3 3 0 01-2.24 1h-9.16v-1.9a3.83 3.83 0 00-2.8-3.67v-9.28a7.09 7.09 0 00-7.08-7.08h-2a7.09 7.09 0 00-7.08 7.08v9.18A3.83 3.83 0 0055 68.52v1.89H45v-1.89a3.83 3.83 0 00-2.8-3.67v-9.28a7.1 7.1 0 00-7.08-7.08h-2A7.1 7.1 0 0026 55.57v9.18a3.82 3.82 0 00-3.3 3.77v1.89h-8.9a3.28 3.28 0 01-3.28-3.6l3.65-38.19a3.43 3.43 0 013.42-3.11h64.83a3.38 3.38 0 013.38 3.08l3.68 38.51a2.94 2.94 0 01-.77 2.32z"/></svg>
+									- / 12
+									<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs/><path  d="M47.6 12.1c-4.7 0-9.5 2.4-9.5 9.5 0 2.5.2 3 .7 5.2l3.3 13.5L24.5 51l-16-9.3c-.5-.3-1.2-.3-2.1-.1-.8.1-1.4 1.1-1.4 2.2 0 1 .5 1.6 1.2 2.1l68.7 40.3c2.2 1.2 4.1 1.7 5.9 1.8 1.3 0 2.5-.2 3.6-.6 2.5-1 4.1-2.9 5.2-4 .5-.5.7-1.2.7-1.9 0-1-.6-2.1-1.9-2.2-.8-.1-1.5.2-2.1.9-1.1 1.4-2.5 2.5-3.7 3-1.2.5-2.5.6-5.3-1L30.5 54.4l19.8-8.1c1.6-1.1 2.4-3.2 1.9-5L49 29.9s15.3 8.2 18.2 13.5 2.3 10.3 4.7 13 12 7 12 7c7.6 3.3 8.7-3.9 3.8-6 0 0-5.5-.3-8.9-3.8s-4.5-18.8-7.9-24.3c-3.4-5.5-14.1-13.6-14.1-13.6-3.7-2.2-6.8-3.6-9.2-3.6z"/><circle  cx="85.5" cy="31.1" r="9.5"/></svg>
+									- / 29												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  style="width:20px;height:20px;transform: rotate(-90deg);float: right;right: 10px;bottom: 20px;position: absolute;"><g data-name="Layer 2"><g data-name="web ui"><path  d="M3 7.38a1.25 1.25 0 000 1.77l8.31 8.31a1 1 0 001.41 0L21 9.15a1.25 1.25 0 00-1.77-1.77L12 14.62 4.75 7.37A1.25 1.25 0 003 7.38z"/></g></svg>
+								</div>
+																				</div>
+						</a>
+					</span>
+                        </div>
+
+                        <div class="card-cam bordered ">
+                            <img class="lazy " src="https://snowreportbg.com/panel/admin/img/load.svg" data-src="https://snowreportbg.com/api/cam.php?id=vitosha2&amp;cache=1" onerror="this.src='https://snowreportbg.com/panel/admin/img/error.svg';">
+                            <span>
+						<a  href="https://snowreportbg.com/bg/vitosha/" rel="nofollow" class="white-text">
+							<div class="top">Витоша</div>
+						<div class="bottom">
+															<div class="index-cam-info">
+									<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 100"><defs/><circle cx="34.08" cy="38.75" r="7.08"/><circle cx="66.43" cy="38.75" r="7.08"/><path d="M94.13 66.66l-3.68-38.52a8 8 0 00-8-7.3H52v-9.16a2 2 0 00-3.94 0v9.16H17.59a8.08 8.08 0 00-8.07 7.34L5.87 66.36a7.95 7.95 0 007.93 8.72h8.89v11.39a3.81 3.81 0 007.62 0V75.08h7v11.39a3.82 3.82 0 007.63 0V75.08H55v11.39a3.82 3.82 0 007.63 0V75.08h7v11.39a3.81 3.81 0 007.62 0V75.08h9.16a7.69 7.69 0 007.66-8.42zm-5.42 2.76a3 3 0 01-2.24 1h-9.16v-1.9a3.83 3.83 0 00-2.8-3.67v-9.28a7.09 7.09 0 00-7.08-7.08h-2a7.09 7.09 0 00-7.08 7.08v9.18A3.83 3.83 0 0055 68.52v1.89H45v-1.89a3.83 3.83 0 00-2.8-3.67v-9.28a7.1 7.1 0 00-7.08-7.08h-2A7.1 7.1 0 0026 55.57v9.18a3.82 3.82 0 00-3.3 3.77v1.89h-8.9a3.28 3.28 0 01-3.28-3.6l3.65-38.19a3.43 3.43 0 013.42-3.11h64.83a3.38 3.38 0 013.38 3.08l3.68 38.51a2.94 2.94 0 01-.77 2.32z"/></svg>
+									- / 14
+									<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs/><path  d="M47.6 12.1c-4.7 0-9.5 2.4-9.5 9.5 0 2.5.2 3 .7 5.2l3.3 13.5L24.5 51l-16-9.3c-.5-.3-1.2-.3-2.1-.1-.8.1-1.4 1.1-1.4 2.2 0 1 .5 1.6 1.2 2.1l68.7 40.3c2.2 1.2 4.1 1.7 5.9 1.8 1.3 0 2.5-.2 3.6-.6 2.5-1 4.1-2.9 5.2-4 .5-.5.7-1.2.7-1.9 0-1-.6-2.1-1.9-2.2-.8-.1-1.5.2-2.1.9-1.1 1.4-2.5 2.5-3.7 3-1.2.5-2.5.6-5.3-1L30.5 54.4l19.8-8.1c1.6-1.1 2.4-3.2 1.9-5L49 29.9s15.3 8.2 18.2 13.5 2.3 10.3 4.7 13 12 7 12 7c7.6 3.3 8.7-3.9 3.8-6 0 0-5.5-.3-8.9-3.8s-4.5-18.8-7.9-24.3c-3.4-5.5-14.1-13.6-14.1-13.6-3.7-2.2-6.8-3.6-9.2-3.6z"/><circle  cx="85.5" cy="31.1" r="9.5"/></svg>
+									- / 15
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  style="width:20px;height:20px;transform: rotate(-90deg);float: right;right: 10px;bottom: 20px;position: absolute;"><g data-name="Layer 2"><g data-name="web ui"><path  d="M3 7.38a1.25 1.25 0 000 1.77l8.31 8.31a1 1 0 001.41 0L21 9.15a1.25 1.25 0 00-1.77-1.77L12 14.62 4.75 7.37A1.25 1.25 0 003 7.38z"/></g></svg>
+								</div>
+																																		</div>
+						</a>
+					</span>
+                        </div>
+
+                        <div class="card-cam bordered ">
+                            <img class="lazy " src="https://snowreportbg.com/panel/admin/img/load.svg" data-src="https://images-webcams.windy.com/95/1398200595/current/preview/1398200595.jpg" onerror="this.src='https://snowreportbg.com/panel/admin/img/error.svg';">
+                            <span>
+						<a  href="https://snowreportbg.com/bg/pamporovo/" rel="nofollow" class="white-text">
+							<div class="top">Пампорово</div>
+						<div class="bottom">
+																																				<div class="index-cam-info">
+									<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 100 100"><defs/><circle cx="34.08" cy="38.75" r="7.08"/><circle cx="66.43" cy="38.75" r="7.08"/><path d="M94.13 66.66l-3.68-38.52a8 8 0 00-8-7.3H52v-9.16a2 2 0 00-3.94 0v9.16H17.59a8.08 8.08 0 00-8.07 7.34L5.87 66.36a7.95 7.95 0 007.93 8.72h8.89v11.39a3.81 3.81 0 007.62 0V75.08h7v11.39a3.82 3.82 0 007.63 0V75.08H55v11.39a3.82 3.82 0 007.63 0V75.08h7v11.39a3.81 3.81 0 007.62 0V75.08h9.16a7.69 7.69 0 007.66-8.42zm-5.42 2.76a3 3 0 01-2.24 1h-9.16v-1.9a3.83 3.83 0 00-2.8-3.67v-9.28a7.09 7.09 0 00-7.08-7.08h-2a7.09 7.09 0 00-7.08 7.08v9.18A3.83 3.83 0 0055 68.52v1.89H45v-1.89a3.83 3.83 0 00-2.8-3.67v-9.28a7.1 7.1 0 00-7.08-7.08h-2A7.1 7.1 0 0026 55.57v9.18a3.82 3.82 0 00-3.3 3.77v1.89h-8.9a3.28 3.28 0 01-3.28-3.6l3.65-38.19a3.43 3.43 0 013.42-3.11h64.83a3.38 3.38 0 013.38 3.08l3.68 38.51a2.94 2.94 0 01-.77 2.32z"/></svg>
+									- / 16
+									<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs/><path  d="M47.6 12.1c-4.7 0-9.5 2.4-9.5 9.5 0 2.5.2 3 .7 5.2l3.3 13.5L24.5 51l-16-9.3c-.5-.3-1.2-.3-2.1-.1-.8.1-1.4 1.1-1.4 2.2 0 1 .5 1.6 1.2 2.1l68.7 40.3c2.2 1.2 4.1 1.7 5.9 1.8 1.3 0 2.5-.2 3.6-.6 2.5-1 4.1-2.9 5.2-4 .5-.5.7-1.2.7-1.9 0-1-.6-2.1-1.9-2.2-.8-.1-1.5.2-2.1.9-1.1 1.4-2.5 2.5-3.7 3-1.2.5-2.5.6-5.3-1L30.5 54.4l19.8-8.1c1.6-1.1 2.4-3.2 1.9-5L49 29.9s15.3 8.2 18.2 13.5 2.3 10.3 4.7 13 12 7 12 7c7.6 3.3 8.7-3.9 3.8-6 0 0-5.5-.3-8.9-3.8s-4.5-18.8-7.9-24.3c-3.4-5.5-14.1-13.6-14.1-13.6-3.7-2.2-6.8-3.6-9.2-3.6z"/><circle  cx="85.5" cy="31.1" r="9.5"/></svg>
+									- / 21												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  style="width:20px;height:20px;transform: rotate(-90deg);float: right;right: 10px;bottom: 20px;position: absolute;"><g data-name="Layer 2"><g data-name="web ui"><path  d="M3 7.38a1.25 1.25 0 000 1.77l8.31 8.31a1 1 0 001.41 0L21 9.15a1.25 1.25 0 00-1.77-1.77L12 14.62 4.75 7.37A1.25 1.25 0 003 7.38z"/></g></svg>
+								</div>
+													</div>
+						</a>
+					</span>
+                        </div>
+
+                    </div>
+
+
+
+                    <ul class="collapsible expandable index-info" style="padding: 0px 20px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <div id="tabscol" class="box-tabs">
+                    <div class="box-report" style="padding:0 1.4rem">
+                        <span class="col s12 subtitle no-margin  no-padding">
+					Твоят Репорт					<a onclick="openReport()" class=" right text-link">добави</a>				</span>
+
+                        <ul class="collapsible expandable col s12  no-padding">
+                            <li class="card reportcard  hoverborder" style="overflow: hidden;">
+                                <div class="collapsible-header grid-menu-2 waves-effect">
+                                    <div class="reportbox center">
+                                        <span class="top grid-auto-2 grid-align-center">
+													<div class="report-cm">
+														+ 0<sup style="">см</sup>
+													</div>
+													<div class="report-cond">
+															<img class="report-img responsive-img lazy" style="padding: 0px;width: 23px;background: transparent;"  data-src="https://snowreportbg.com/panel/admin/img/report/none.png">
+																												</div>
+			</span>
+                                        <span class="subtext" style="display:inline-flex">
+																																																																																																		
+																												Мальовица																																																																																																• 												19.03 
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="arr-more"><defs><style>.cls-1{fill:none;}</style></defs><title>arrow-down</title><g id="Layer_2" data-name="Layer 2"><g id="web_ui" data-name="web ui"><g id="arrow-down"><path class="cls-1" d="M0,24V0H24V24Z"/><path d="M3,7.38A1.25,1.25,0,0,0,3,9.15l8.31,8.31a1,1,0,0,0,1.41,0L21,9.15a1.25,1.25,0,0,0-1.77-1.77L12,14.62,4.75,7.37A1.25,1.25,0,0,0,3,7.38Z"/></g></g></g></svg>
+			</span>
+                                    </div>
+                                </div>
+                                <style>
+                                    .reportcard table tr td {
+                                        font-size: 15px;
+                                    }
+
+                                    .reportcard table tr td:nth-child(1) {
+                                        text-align: right !important;
+                                        border-right: 1px solid #d0d0d0;
+                                        padding-right: 5px !important;
+                                        font-size: 12px;
+                                        color: grey;
+                                    }
+
+                                    .reportcard table tr td:nth-child(2) {
+                                        text-align: left !important;
+                                        padding-left: 5px !important;
+                                        color: var(--infobox-small-text)
+                                    }
+                                </style>
+                                <div class="collapsible-body">
+
+
+                                    <table class="bordered">
+                                        <tr>
+                                            <td>вятър</td>
+                                            <td>Няма</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="card reportcard  hoverborder" style="overflow: hidden;">
+                                <div class="collapsible-header grid-menu-2 waves-effect">
+                                    <div class="reportbox center">
+                                        <span class="top grid-auto-2 grid-align-center">
+													<div class="report-cm">
+														+ 0<sup style="">см</sup>
+													</div>
+													<div class="report-cond">
+															<img class="report-img responsive-img lazy" style="padding: 0px;width: 23px;background: transparent;"  data-src="https://snowreportbg.com/panel/admin/img/report/fog.png">
+																												</div>
+			</span>
+                                        <span class="subtext" style="display:inline-flex">
+																																																																																																		
+																																																																																																		Узана																										• 												19.02 
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="arr-more"><defs><style>.cls-1{fill:none;}</style></defs><title>arrow-down</title><g id="Layer_2" data-name="Layer 2"><g id="web_ui" data-name="web ui"><g id="arrow-down"><path class="cls-1" d="M0,24V0H24V24Z"/><path d="M3,7.38A1.25,1.25,0,0,0,3,9.15l8.31,8.31a1,1,0,0,0,1.41,0L21,9.15a1.25,1.25,0,0,0-1.77-1.77L12,14.62,4.75,7.37A1.25,1.25,0,0,0,3,7.38Z"/></g></g></g></svg>
+			</span>
+                                    </div>
+                                </div>
+                                <style>
+                                    .reportcard table tr td {
+                                        font-size: 15px;
+                                    }
+
+                                    .reportcard table tr td:nth-child(1) {
+                                        text-align: right !important;
+                                        border-right: 1px solid #d0d0d0;
+                                        padding-right: 5px !important;
+                                        font-size: 12px;
+                                        color: grey;
+                                    }
+
+                                    .reportcard table tr td:nth-child(2) {
+                                        text-align: left !important;
+                                        padding-left: 5px !important;
+                                        color: var(--infobox-small-text)
+                                    }
+                                </style>
+                                <div class="collapsible-body">
+
+
+                                    <table class="bordered">
+                                        <tr>
+                                            <td>вятър</td>
+                                            <td>Няма</td>
+                                        </tr>
+                                        <tr>
+                                            <td>писти</td>
+                                            <td>Отлични</td>
+                                        </tr>
+                                        <tr>
+                                            <td>лифтове</td>
+                                            <td>Частично отворени</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="card reportcard  hoverborder" style="overflow: hidden;">
+                                <div class="collapsible-header grid-menu-2 waves-effect">
+                                    <div class="reportbox center">
+                                        <span class="top grid-auto-2 grid-align-center">
+													<div class="report-cm">
+														+ 0<sup style="">см</sup>
+													</div>
+													<div class="report-cond">
+															<img class="report-img responsive-img lazy" style="padding: 0px;width: 23px;background: transparent;"  data-src="https://snowreportbg.com/panel/admin/img/report/cloud.png">
+																												</div>
+			</span>
+                                        <span class="subtext" style="display:inline-flex">
+																																																																																																Картала		
+																																																																																																																												• 												23.01 
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="arr-more"><defs><style>.cls-1{fill:none;}</style></defs><title>arrow-down</title><g id="Layer_2" data-name="Layer 2"><g id="web_ui" data-name="web ui"><g id="arrow-down"><path class="cls-1" d="M0,24V0H24V24Z"/><path d="M3,7.38A1.25,1.25,0,0,0,3,9.15l8.31,8.31a1,1,0,0,0,1.41,0L21,9.15a1.25,1.25,0,0,0-1.77-1.77L12,14.62,4.75,7.37A1.25,1.25,0,0,0,3,7.38Z"/></g></g></g></svg>
+			</span>
+                                    </div>
+                                </div>
+                                <style>
+                                    .reportcard table tr td {
+                                        font-size: 15px;
+                                    }
+
+                                    .reportcard table tr td:nth-child(1) {
+                                        text-align: right !important;
+                                        border-right: 1px solid #d0d0d0;
+                                        padding-right: 5px !important;
+                                        font-size: 12px;
+                                        color: grey;
+                                    }
+
+                                    .reportcard table tr td:nth-child(2) {
+                                        text-align: left !important;
+                                        padding-left: 5px !important;
+                                        color: var(--infobox-small-text)
+                                    }
+                                </style>
+                                <div class="collapsible-body">
+
+
+                                    <table class="bordered">
+                                        <tr>
+                                            <td>вятър</td>
+                                            <td>Няма</td>
+                                        </tr>
+                                        <tr>
+                                            <td>писти</td>
+                                            <td>Затворени</td>
+                                        </tr>
+                                        <tr>
+                                            <td>лифтове</td>
+                                            <td>Отворени</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="card reportcard  hoverborder" style="overflow: hidden;">
+                                <div class="collapsible-header grid-menu-2 waves-effect">
+                                    <div class="reportbox center">
+                                        <span class="top grid-auto-2 grid-align-center">
+													<div class="report-cm">
+														+ 0<sup style="">см</sup>
+													</div>
+													<div class="report-cond">
+															<img class="report-img responsive-img lazy" style="padding: 0px;width: 23px;background: transparent;"  data-src="https://snowreportbg.com/panel/admin/img/report/none.png">
+																												</div>
+			</span>
+                                        <span class="subtext" style="display:inline-flex">
+																																																																																																Картала		
+																																																																																																																												• 												17.01 
+																								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="arr-more"><defs><style>.cls-1{fill:none;}</style></defs><title>arrow-down</title><g id="Layer_2" data-name="Layer 2"><g id="web_ui" data-name="web ui"><g id="arrow-down"><path class="cls-1" d="M0,24V0H24V24Z"/><path d="M3,7.38A1.25,1.25,0,0,0,3,9.15l8.31,8.31a1,1,0,0,0,1.41,0L21,9.15a1.25,1.25,0,0,0-1.77-1.77L12,14.62,4.75,7.37A1.25,1.25,0,0,0,3,7.38Z"/></g></g></g></svg>
+			</span>
+                                    </div>
+                                </div>
+                                <style>
+                                    .reportcard table tr td {
+                                        font-size: 15px;
+                                    }
+
+                                    .reportcard table tr td:nth-child(1) {
+                                        text-align: right !important;
+                                        border-right: 1px solid #d0d0d0;
+                                        padding-right: 5px !important;
+                                        font-size: 12px;
+                                        color: grey;
+                                    }
+
+                                    .reportcard table tr td:nth-child(2) {
+                                        text-align: left !important;
+                                        padding-left: 5px !important;
+                                        color: var(--infobox-small-text)
+                                    }
+                                </style>
+                                <div class="collapsible-body">
+
+
+                                    <table class="bordered">
+                                        <tr>
+                                            <td>вятър</td>
+                                            <td>Няма</td>
+                                        </tr>
+                                        <tr>
+                                            <td>лифтове</td>
+                                            <td>Частично отворени</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <span class="col s12 subtitle no-margin " style="    padding: 0 2rem !important;">
+					Прогноза за сняг						
+				</span>
+                    <ul class="collapsible expandable" style="padding: 0px 20px;">
+
+
+
+                        <li class="card infocard noclick bordered col s12" style="    padding: 5px !important;">
+
+                            <table class="brd" style="color: var(--txt-colr-main)">
+                                <thead style="font-size: 12px">
+                                    <th class="th-first" style=""></th>
+                                    <th>3 дни</th>
+                                    <th>6 дни</th>
+                                    <th>9 дни</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="td-first border-left-td">Банско</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Боровец</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Витоша</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Пампорово</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Мальовица</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Картала</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Добринище</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-first border-left-td">Осогово</td>
+                                        <td>0<sup>см</sup></td>
+                                        <td>0<sup>см</sup></td>
+                                        <td class="border-right-td">0<sup>см</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" grey-text " colspan="4" style="font-size: 13px;padding: 7px 5px !important;">
+                                            <a class="grey-text text-link" href="" target="_blank">snow-forecast.com</a> • 12:01PM / 01.05 </td>
+                                    </tr>
+
+
+
+                                </tbody>
+                            </table>
+
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <footer class="page-footer no-margin hide-on-med-and-down footer-row">
+
+            <div class="menu-btm-txt">
+                <div>
+                    <h5>Snow ReportBG</h5>
+                    Всичко за зимния сезон в България </div>
+                <a href='https://play.google.com/store/apps/details?id=com.snowreportbg.mobile'><img  alt='Get it on Google Play'  src='/panel/admin/img/install-play.png'/></a>
+                <a href='https://appgallery.huawei.com/#/app/C103090659'><img  alt='Get it on Huawei App Gallery' src='/panel/admin/img/install-hua.png'/></a>
+            </div>
+            <div class="menu-btm-social">
+                <a href="https://facebook.com/snowreportbg" target="_blank" title="Следвайте ни в Facebook">
+				<svg  viewBox="0 0 24 24"><path  d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" /></svg>			</a>
+                <a href="https://instagram.com/snowreportbg" target="_blank" title="Следвайте ни в Instagram">
+				<svg viewBox="0 0 24 24"><path  d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>			</a>
+                <a href="https://twitter.com/snowreportbg" target="_blank" title="Следвайте ни в Twitter">
+				<svg viewBox="0 0 24 24"><path  d="M17.71,9.33C18.19,8.93 18.75,8.45 19,7.92C18.59,8.13 18.1,8.26 17.56,8.33C18.06,7.97 18.47,7.5 18.68,6.86C18.16,7.14 17.63,7.38 16.97,7.5C15.42,5.63 11.71,7.15 12.37,9.95C9.76,9.79 8.17,8.61 6.85,7.16C6.1,8.38 6.75,10.23 7.64,10.74C7.18,10.71 6.83,10.57 6.5,10.41C6.54,11.95 7.39,12.69 8.58,13.09C8.22,13.16 7.82,13.18 7.44,13.12C7.81,14.19 8.58,14.86 9.9,15C9,15.76 7.34,16.29 6,16.08C7.15,16.81 8.46,17.39 10.28,17.31C14.69,17.11 17.64,13.95 17.71,9.33M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z" /></svg>			</a>
+                <a href="https://youtube.com/snowreportbg" target="_blank" title="Следвайте ни в YouTube">
+				<svg  viewBox="0 0 24 24"><path  d="M10,16.5V7.5L16,12M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>			</a><br>
+                <span class="sr-links">
+				<a class="btn-dark" ><span>тъмен</span></a>
+                <a href="https://snowreportbg.com/bg/about/"><span>за приложението</span></a>
+
+                <a title="English" href="https://snowreportbg.com/en/"><span>english</span></a> </span>
+            </div>
+        </footer>
+
+
+
+
+
+        <script type="text/javascript" src="../panel/admin/js/yall-polyfill.min.js"></script>
+        <script type="text/javascript" src="../panel/admin/js/yall.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", yall);
+        </script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <link type="text/css" rel="stylesheet" href="../panel/admin/css/framework.css" />
+        <link type="text/css" rel="stylesheet" href="../panel/admin/css/icon/style.css" rel=preload rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="../panel/admin/css/core.css?v=10" />
+        <script type="text/javascript" src="../panel/admin/js/jquery.js"></script>
+
+        <script type="text/javascript" src="../panel/admin/js/framework.js"></script>
+        <script type="text/javascript" src="../panel/admin/js/cookie.js"></script>
+
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+        <script>
+            $('.index-slider').slick({
+                dots: true,
+                autoplay: false,
+                autoplaySpeed: 4000,
+                infinite: false,
+                speed: 1000,
+                arrows: false,
+                slidesToShow: 1,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: false,
+                            dots: false,
+
+                            arrows: false,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            speed: 500,
+                            infinite: false,
+                            dots: false,
+
+                            arrows: false,
+                        }
+                    }
+                ]
+            });
+        </script>
+
+
+        <link type="text/css" rel="stylesheet" href="../panel/admin/css/slider.css" />
+        <script type="text/javascript" src="../panel/admin/js/slider.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".royalSlider").royalSlider({
+                    addActiveClass: true,
+                    transitionSpeed: 500,
+                    controlNavigation: 'none',
+                    arrowsNav: true,
+                    imgWidth: '100%',
+                    autoScaleSlider: true,
+                    loop: true,
+                    navigateByClick: true,
+                    sliderDrag: false,
+                    fadeinLoadedSlide: true,
+                    globalCaption: false,
+                    globalCaptionInside: false,
+                    imgHeight: '100%',
+                    keyboardNavEnabled: true,
+                    deeplinking: {
+                        enabled: true,
+                        change: true,
+                        prefix: 'cam-'
+                    }
+                });
+            });
+        </script>
+
+        <script>
+            new cookieNoticeJS({
+                'messageLocales': {
+                    'en': 'Този сайт използва бисквитки, за да работи.',
+                },
+                'buttonLocales': {
+                    'en': 'Приемам',
+                },
+                'learnMoreLinkText': {
+                    'en': 'прочети още',
+                },
+                'cookieNoticePosition': 'bottom',
+                'learnMoreLinkEnabled': false,
+                'learnMoreLinkHref': 'https://www.cookiesandyou.com/',
+                'expiresIn': 30,
+                'buttonBgColor': '#eaeaea',
+                'buttonTextColor': '#000',
+                'noticeBgColor': '#eaeaea',
+                'noticeTextColor': '#000',
+                'linkColor': '#f00',
+                'linkTarget': '_blank',
+                'debug': false
+            });
+        </script>
+        <script type="text/javascript" src="../panel/admin/js/init-core.js?v=10"></script>
+
+        <script>
+            // On Dark mode detected
+            var themecookie = document.cookie.indexOf('theme=');
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches && (themecookie == '-1')) {
+                var toastHTML = '<span>Искате ли да включите тъмен режим?</span><a class="toast-action btn-dark3">Да</a>';
+                M.toast({
+                    html: toastHTML,
+                    displayLength: '5000',
+                    completeCallback: function() {
+                        document.cookie = "theme=light";
+                    }
+                });
+                const btn3 = document.querySelector(".btn-dark3");
+                btn3.addEventListener("click", function() {
+                    document.body.classList.toggle("dark");
+                    let theme = "light";
+                    if (document.body.classList.contains("dark")) {
+                        theme = "dark";
+                    }
+                    document.cookie = "theme=" + theme;
+                    M.Toast.dismissAll();
+                });
+            }
+            // Dark Mode
+            const btn = document.querySelector(".btn-dark");
+            btn.addEventListener("click", function() {
+                document.body.classList.toggle("dark");
+                let theme = "light";
+                if (document.body.classList.contains("dark")) {
+                    theme = "dark";
+                }
+                document.cookie = "theme=" + theme;
+            });
+
+            const btn2 = document.querySelector(".btn-dark2");
+            btn2.addEventListener("click", function() {
+                document.body.classList.toggle("dark");
+                let theme = "light";
+                if (document.body.classList.contains("dark")) {
+                    theme = "dark";
+                }
+                document.cookie = "theme=" + theme;
+            });
+        </script>
+
+        <style>
+            html {
+                visibility: visible;
+                opacity: 1;
+            }
+        </style>
+    </div>
+
+</body>
+
+</html>

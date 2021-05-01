@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.ttf?qr1fua') format('truetype'), url('fonts/icomoon.woff?qr1fua') format('woff'), url('fonts/icomoon.svg?qr1fua#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icn-cog:before {
+    content: "\e94b";
+}
+
+.icn-sharebtn:before {
+    content: "\e94c";
+}
+
+.icn-lift-1:before {
+    content: "\e944";
+}
+
+.icn-lift-2:before {
+    content: "\e945";
+}
+
+.icn-lift-s:before {
+    content: "\e946";
+}
+
+.icn-lift-4:before {
+    content: "\e947";
+}
+
+.icn-lift-5:before {
+    content: "\e948";
+}
+
+.icn-lift-6:before {
+    content: "\e949";
+}
+
+.icn-lift-8:before {
+    content: "\e94a";
+}
+
+.icn-cloudy:before {
+    content: "\e93a";
+}
+
+.icn-freeze:before {
+    content: "\e93b";
+}
+
+.icn-magla:before {
+    content: "\e93c";
+}
+
+.icn-null:before {
+    content: "\e93d";
+}
+
+.icn-rain:before {
+    content: "\e93e";
+}
+
+.icn-snow:before {
+    content: "\e93f";
+}
+
+.icn-snow2:before {
+    content: "\e943";
+}
+
+.icn-sunny:before {
+    content: "\e940";
+}
+
+.icn-temp:before {
+    content: "\e941";
+}
+
+.icn-wind:before {
+    content: "\e942";
+}
+
+.icn-twitter:before {
+    content: "\e900";
+}
+
+.icn-facebook-box:before {
+    content: "\e901";
+}
+
+.icn-fb2:before {
+    content: "\e902";
+}
+
+.icn-fbm:before {
+    content: "\e903";
+}
+
+.icn-gplus:before {
+    content: "\e904";
+}
+
+.icn-insta:before {
+    content: "\e905";
+}
+
+.icn-share:before {
+    content: "\e906";
+}
+
+.icn-share2:before {
+    content: "\e907";
+}
+
+.icn-youtube:before {
+    content: "\e908";
+}
+
+.icn-m:before {
+    content: "\e909";
+}
+
+.icn-m2:before {
+    content: "\e90a";
+}
+
+.icn-arr-down:before {
+    content: "\e90b";
+}
+
+.icn-arr-left:before {
+    content: "\e90c";
+}
+
+.icn-arr-right:before {
+    content: "\e90d";
+}
+
+.icn-arr-up:before {
+    content: "\e90e";
+}
+
+.icn-bus:before {
+    content: "\e90f";
+}
+
+.icn-calendar:before {
+    content: "\e910";
+}
+
+.icn-cam:before {
+    content: "\e911";
+}
+
+.icn-car:before {
+    content: "\e912";
+}
+
+.icn-card:before {
+    content: "\e913";
+}
+
+.icn-clipboard:before {
+    content: "\e914";
+}
+
+.icn-close:before {
+    content: "\e915";
+}
+
+.icn-close-black:before {
+    content: "\e916";
+}
+
+.icn-daynight:before {
+    content: "\e917";
+}
+
+.icn-dots-b:before {
+    content: "\e918";
+}
+
+.icn-error:before {
+    content: "\e919";
+}
+
+.icn-fullscreen:before {
+    content: "\e91a";
+}
+
+.icn-fullscreen-exit:before {
+    content: "\e91b";
+}
+
+.icn-googleplay:before {
+    content: "\e91c";
+}
+
+.icn-history:before {
+    content: "\e91d";
+}
+
+.icn-info-b:before {
+    content: "\e91e";
+}
+
+.icn-layers:before {
+    content: "\e91f";
+}
+
+.icn-link:before {
+    content: "\e920";
+}
+
+.icn-live:before {
+    content: "\e921";
+}
+
+.icn-logo:before {
+    content: "\e922";
+}
+
+.icn-map:before {
+    content: "\e923";
+}
+
+.icn-mobile:before {
+    content: "\e924";
+}
+
+.icn-nav:before {
+    content: "\e925";
+}
+
+.icn-offline:before {
+    content: "\e926";
+}
+
+.icn-open:before {
+    content: "\e927";
+}
+
+.icn-partopen:before {
+    content: "\e928";
+}
+
+.icn-pause:before {
+    content: "\e929";
+}
+
+.icn-phone:before {
+    content: "\e92a";
+}
+
+.icn-photo:before {
+    content: "\e92b";
+}
+
+.icn-play:before {
+    content: "\e92c";
+}
+
+.icn-price-adult:before {
+    content: "\e92d";
+}
+
+.icn-price-kid:before {
+    content: "\e92e";
+}
+
+.icn-price-student:before {
+    content: "\e92f";
+}
+
+.icn-qr:before {
+    content: "\e930";
+}
+
+.icn-report:before {
+    content: "\e931";
+}
+
+.icn-star:before {
+    content: "\e932";
+}
+
+.icn-sun:before {
+    content: "\e933";
+}
+
+.icn-swap:before {
+    content: "\e934";
+}
+
+.icn-upload:before {
+    content: "\e935";
+}
+
+.icn-upphoto:before {
+    content: "\e936";
+}
+
+.icn-video:before {
+    content: "\e937";
+}
+
+.icn-weather:before {
+    content: "\e938";
+}
+
+.icn-weather6:before {
+    content: "\e939";
+}
